@@ -1,0 +1,28 @@
+* {
+    /*  width и height элементов включают в
+        себя значения полей и границ  */
+box-sizing: border-box;
+}
+.grid-init {
+max-width: 400px; /* максимальная ширина контейнера */
+margin: auto; /* центрирование контейнера на странице */
+background-color: lightsteelblue; /* фон */
+padding: 10px; /* внутренниеотступы */
+}
+.box-init {
+font-size: larger; /* размершрифта */
+color: #fff; /* цветтекста */
+border-radius: 5px; /* скруглениеуглов */
+background-color: #2196f3; /* цветфона */
+border: 1px solid black; /* границаблока */
+padding: 10px; /* внутренние отступы */
+	display: flex; 	/*  выравнивание текста по центру блока с помощью CSS Flexbox  */
+	align-items: center;
+justify-content: center;
+}
+.grid {
+display: grid;
+row-gap: 10px;
+column-gap: 10px;
+}
+

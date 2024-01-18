@@ -1,0 +1,15 @@
+body{
+	background-color:#cfe3d5;
+}
+p{
+	width:500px;
+	height:200px;
+	letter-spacing:2px;
+	text-align:center;
+	font-family:TimesNewRoman serif;
+	}
+	
+	.kursiv{
+		line-height:40px;/* это коментарий*/
+		
+	}

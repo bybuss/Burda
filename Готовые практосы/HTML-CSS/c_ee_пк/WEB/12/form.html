@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Работа с формами</title>
+	 </head>
+	 <body> 
+		<form>
+			<input type="text"><br><br>
+			<input type="checkbox" checked>
+			<input type="checkbox">
+			<input type="checkbox" disabled><br><br>
+			<input type="radio">
+			<input type="radio" name="test" checked value="1">
+			<input type="radio" name="test" value="2"><br><br>
+			<input type="password" value="123456"><br><br>
+			<textarea placeholder="Я подсказка:)"></textarea><br><br>
+				<br><br>
+			<input type="reset" value="Кнопка сброса">
+			<input type="submit" value="Кнопка отправки">
+			<br><br>
+	 <select>
+	<option>Москва</option>
+	<option>Минск</option>
+	<option>Киев</option>
+	<option>Лондон</option>
+</select>
+
+<select multiple name="city[]">
+	<option>Москва - столица России</option>
+	<option>Минск</option>
+	<option>Киев</option>
+	<option>Лондон</option>
+</select>
+
+<select multiple name="city[]">
+	<option>Москва - столица России</option>
+	<option selected>Минск</option>
+	<option>Киев</option>
+	<option selected>Лондон</option>
+</select>
+<select>
+	<optgroup label="Города России">
+		<option>Москва</option>
+		<option>Смоленск</option>
+	</optgroup>
+	<optgroup label="Города Беларуси">
+		<option>Минск</option>
+		<option>Витебск</option>
+	</optgroup>
+</select>
+
+		</form>
+		<form>
+	<fieldset>
+		<legend>Данные покупателя</legend>
+		<input type="text">
+	</fieldset>
+	<fieldset>
+		<legend>Данные продавца</legend>
+		<input type="text">
+	</fieldset>
+</form>
+
+	 </body>
+</html>

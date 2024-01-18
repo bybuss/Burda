@@ -1,0 +1,12 @@
+body{
+background-color:#fff;
+}
+p{
+	letter-spacing:3px;
+	font:18px Arial;
+}
+.kursiv{
+	font-style:italic;
+	line-height:30px;
+	text-decoration:underline;/*это подчеркнутый*/
+}

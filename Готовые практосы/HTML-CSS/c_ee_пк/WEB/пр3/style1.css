@@ -1,0 +1,19 @@
+table{
+	padding:auto;
+	margin:auto;
+	border:1px solid black;
+	width:600px;
+	border-collapse:collapse;
+}
+td{
+	border:1px solid black;
+	padding:10px;
+}
+caption{
+	margin-bottom:10px;
+}
+th{
+	border:1px solid black;
+	padding:10px;
+	background-color:silver;
+}

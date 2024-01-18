@@ -1,0 +1,11 @@
+p{
+font:16px Arial;
+font-style:italic;
+width:400px;
+}
+.kursiv{
+	letter-spacing:5px;
+	text-decoration:underline;
+	color:blue;/*это цвет текста*/
+	line-height:25px; 
+}
