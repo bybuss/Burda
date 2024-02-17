@@ -1,0 +1,224 @@
+.dashed-border-box {
+    border: 2px dotted gray;
+    padding: 20px; 
+    margin: 20px; 
+    width: auto;
+    height: auto; 
+    position: relative;
+}
+
+/*--------------------------------------------*/
+
+#wrapper1 {
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin: 0px auto;
+	border: 1px solid green;
+}
+
+#elem1-1{
+	border: 1px solid red;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	width: 100px;
+	height: 100px;
+}
+
+/*--------------------------------------------*/
+
+#wrapper2 {
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin: 0px auto;
+	border: 1px solid #4eed99;
+    background-color: #4eed99;
+}
+
+#elem2-1{
+	border: 1px solid white;
+	position: absolute;
+    left: 50px;
+    top: 50px;
+	width: 100px;
+	height: 100px;
+    background-color: white;
+}
+
+#elem2-2{
+	border: 1px solid white;
+	position: absolute;
+    left: 350px;
+    top: 250px;
+	width: 100px;
+	height: 100px;
+    background-color: white;
+}
+
+/*--------------------------------------------*/
+
+#wrapper3 {
+	position: relative;
+	width: 200px;
+	height: 430px;
+	margin: 0px auto;
+	border: 1px solid black;
+}
+
+#elem3-1 {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50px;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#elem3-2 {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50px;
+    left: 50px;
+    top: 160px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+#elem3-3 {
+    position: absolute;
+    border: 1px solid black; 
+    border-radius: 50px;
+    left: 50px;
+    top: 270px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+/*--------------------------------------------*/
+
+#wrapper4 {
+    position: relative;
+    border: 1px solid #4eed99;
+    background-color: #4eed99;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    margin: auto;
+}
+
+#elem4-1 {
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    left: 100px;
+    top: 90px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#elem4-2 {
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    left: 300px;
+    top: 90px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#elem4-3 {
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    left: 210px;
+    top: 210px;
+    width: 75px;
+    height: 75px;
+}
+
+#elem4-4 {
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    left: 125px;
+    top: 340px;
+    width: 250px;
+    height: 25px;
+}
+
+/*--------------------------------------------*/
+
+#wrapper5 {
+    position: relative;
+    border: 1px solid #C4CD14;
+    background-color: #C4CD14;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    margin: auto;
+}
+
+#elem5-1 {
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    left: 100px;
+    top: 90px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    z-index: 3;
+}
+
+#elem5-2 {
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    left: 300px;
+    top: 90px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    z-index: 3;
+}
+
+.noise {
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    left: 210px;
+    top: 250px;
+	width: 70px;
+	height: 70px;
+	z-index: 3;
+	border-radius: 35px;
+}
+
+.mouth1{
+	background-color: #fff;
+	position: absolute;
+	left: 150px;
+	top: 250px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	z-index: 1;
+}
+.mouth2{
+	background-color: #C4CD14;
+	position: absolute;
+	left: 100px;
+	top: 120px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	z-index: 2;
+}

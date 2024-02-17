@@ -1,0 +1,48 @@
+body {
+    background-color: #f2d7d2;
+}
+
+table {
+    border: 5px solid #ffffff; 
+    border-bottom-color: #7f7f7f;
+    border-right-color: #7f7f7f; 
+    margin: auto;
+}
+
+caption {
+    color: #9a5049;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+.bordoviy {
+    text-align: center;
+    color: white;
+    text-transform: lowercase;
+    font-weight: 500; 
+    background-color: #b06760;
+}
+
+.year {
+    text-transform: uppercase;
+}
+
+.padding {
+    
+}
+
+th {
+    text-align: left;
+    text-transform: lowercase;
+    border: 1px solid #7f7f7f; 
+    border-bottom-color: #ffffff;
+    border-right-color: #ffffff; 
+}
+
+td {
+    border-collapse: collapse 20px;
+    font-weight: 300;
+    border: 1px solid #7f7f7f; 
+    border-bottom-color: #ffffff;
+    border-right-color: #ffffff; 
+}

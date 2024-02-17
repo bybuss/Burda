@@ -1,0 +1,26 @@
+h3 {
+    color: #9b6237;
+    text-align: center;
+}
+
+caption {
+    background-color: #bfbfbf;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+    font-weight: 500;
+}
+
+p {
+    font-weight: 900;
+}
+
+.text {
+    padding-top: 35px;
+}
+
+.first_img {
+    width: 120px;
+    height: 140px;
+}
