@@ -1,0 +1,34 @@
+.border-box {
+    border: 1.5px solid gray;
+    padding: 0px 20px;
+    margin: auto; 
+    width: 50%;
+    position: relative;
+    font-size: 18px;
+    padding-bottom: 40px;
+    text-align: justify;
+}
+
+.red_line {
+    text-indent: 30px;
+}
+
+a {
+    text-decoration: none;
+    float: right;
+    color: #fa0ccf;
+}
+
+span {
+    color: green;
+}
+
+h2 {
+    color: #fa0ccf;
+    text-align: center;
+    margin-top: 35px;
+}
+
+h1 {
+    text-align: center;
+}

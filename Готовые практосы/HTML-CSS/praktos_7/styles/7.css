@@ -1,0 +1,73 @@
+.border-box {
+    border: 1.5px solid orange;
+    padding: 5px;
+    margin: auto; 
+    width: 50%;
+    position: relative;
+    font-size: 18px;
+    /* text-align: justify; */
+    color: orange;
+}
+
+h1 {
+    text-align: center;
+    color: #996012;
+}
+
+h3 {
+    text-align: center;
+    color: #996012;
+}
+
+.menu{
+    list-style-type: none; 
+	display: flex;
+	background-color: #FC9D00;
+	padding: 10px 10px 10px 0px;
+	width: 100%;
+    margin: -5px;
+}
+
+.menu li{
+    text-align: center;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    margin: auto;
+    color: #FFFFFF;
+    font: 13px Arial;
+    padding: 15px;
+}
+
+a:hover, a:active{
+    background-color: #FFFFFF;
+    color: #FC9D00;
+}
+
+.boldik {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.more_deep {
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    color: #996012;
+}
+
+.more_deep li {
+    padding-right: 15px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.line {
+    line-height: 33px;
+    padding: 0px 5px;
+}

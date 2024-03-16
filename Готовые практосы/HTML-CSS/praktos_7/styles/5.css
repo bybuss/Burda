@@ -1,0 +1,27 @@
+.border-box {
+    border: 3px dashed green;
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 0px;
+    margin: auto; 
+    width: 50%;
+    position: relative;
+    color: green;
+    font-size: 18px;
+    padding-bottom: 40px;
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+span {
+    font-weight: 600;
+    text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+.border-box {
+    border: 1.5px solid gray;
+    padding: 20px;
+    padding-top: 0px;
+    margin: 20px; 
+    width: 50%;
+    position: relative;
+    font-size: 18px;
+    padding-bottom: 40px;
+    text-align: justify;
+}
+
+h1 {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    float: right;
+    color: blue;
+}
