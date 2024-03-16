@@ -27,10 +27,6 @@ caption {
     text-transform: uppercase;
 }
 
-.padding {
-    
-}
-
 th {
     text-align: left;
     text-transform: lowercase;
@@ -40,7 +36,7 @@ th {
 }
 
 td {
-    border-collapse: collapse 20px;
+    border-collapse: collapse;
     font-weight: 300;
     border: 1px solid #7f7f7f; 
     border-bottom-color: #ffffff;
