@@ -1,0 +1,71 @@
+.dashed-border-box {
+    border: 2px dotted gray;
+    padding: 15px;
+    margin: 20px; 
+    width: 96%;
+}
+
+.dashed-border-box2 {
+    border: 2px dotted gray;
+    padding: 15px;
+    margin: 20px; 
+    width: 96%;
+}
+
+.padd {
+    margin-bottom: 20px;
+}
+
+
+.border-box {
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 20px; 
+    width: 96%;
+    height: auto; 
+}
+
+.dashed-border-box input, textarea, button {
+    display: block;
+}
+    
+.right {
+    display: flex; 
+    align-items: center;
+}
+
+select {
+    margin-left: 10px;
+}
+
+.border {
+    border: 1px solid red;
+}   
+
+.hz_vr {        
+    resize: both;
+    width: 200px;
+    height: 100px;
+}
+
+.none {
+    resize: none;
+    width: 200px;
+    height: 100px;
+}
+
+.vr {
+    resize: horizontal;
+    width: 200px;
+    height: 100px;
+}
+
+.hz {
+    resize: vertical;
+    width: 200px;
+    height: 100px;
+}
+
+input, textarea, button {
+    margin: 10px;
+}

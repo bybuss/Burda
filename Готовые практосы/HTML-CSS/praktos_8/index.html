@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashed-border-box">
+        <input type="text" placeholder="Плейсхолдер">
+        <input type="text" value="Value">
+        <input type="text" disabled placeholder="disabled">
+        <input type="password" value="12345678">
+        <textarea placeholder="Введите текст"></textarea>
+        <input type="button" value="Кнопка через тег input">
+        <button>Кнопка через тег button</button>
+    </div>
+
+    <div class="dashed-border-box">
+        <div class="right">
+            <input placeholder="Плейсхолдер" id="input1">
+            <label for="input1">Это метка для инпута - нажмите на меня - и инпут получит фокус!</label>
+        </div>
+        <button>Отправить на сервер</button>
+    </div>
+
+    <div class="dashed-border-box">
+        <div class="right">
+            <input type="checkbox" id="input2">
+            <label class="border" for="input2">Это метка для чекбокса - нажмите на меня - и чекбокс сменит галочку!</label>
+        </div>
+
+        <div class="right">
+            <input type="checkbox" id="input3" checked>
+            <label class="border" for="input3">Я отмечен по умолчанию!</label>
+        </div>
+        
+        <div class="right">
+            <input type="checkbox" id="input4" disabled checked>
+            <label class="border" for="input4">Я disabled!</label>
+        </div>
+        
+        <div class="border-box">
+            <p>Это группа радиокнопок - только одна из них может быть отмечена!</p>
+            <div class="right">
+                <input type="radio" name="test" value="1" id="radio1">
+                <label class="border" for="radio1">Это метка для радио!</label>
+            </div>    
+            
+            <div class="right">
+                <input type="radio" name="test" value="2" id="radio2">
+                <label class="border" for="radio2">Это метка для радио!</label>
+            </div>
+        </div>  
+        <button>Отправить на сервер</button>
+    </div>
+
+    <div class="dashed-border-box2">
+        <select>
+            <option>Нью-Йорк</option>
+        </select>
+
+        <select multiple>
+            <option>Нью-Йорк</option>
+            <option>Киев</option>
+            <option>Москва</option>
+        </select>
+
+        <select multiple>
+            <option>Варшава</option>
+            <option>Нью-Йорк</option>
+            <option>Киев</option>
+            <option>Москва</option>
+            <option>Минск</option>
+        </select>
+        <input type="button" value="Отправить на сервер">
+    </div>
+
+    <div class="dashed-border-box">
+        <div class="right">
+            <input type="file" value="Обзор...">
+            <input type="button" value="Отправить на сервер">
+        </div>
+    </div>
+
+    <div class="dashed-border-box">
+        <form>
+            <fieldset>
+                <legend>Выберите кнопочку</legend>
+                <div class="right">
+                    <input type="radio" value="1" name="test1">
+                    <input type="radio" value="2" name="test1">
+                    <input type="radio" value="3" name="test1">
+                    <input type="text" placeholder="Ваше имя...">
+                </div>
+            </fieldset>
+            <br>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Выберите ещё кнопочку</legend>
+                <div class="right">
+                    <input type="radio" value="1" name="test2">
+                    <input type="radio" value="2" name="test2">
+                    <input type="radio" value="3" name="test2">
+                    <input type="radio" value="4" name="test2">
+                    <input type="radio" value="5" name="test2">
+                </div>
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <br>
+        <input type="button" value="Отправить на сервер">
+    </div>
+
+    <div class="dashed-border-box">
+        <textarea class="hz_vr">Ограничена по ширине и высоте</textarea>
+        <textarea class="none"></textarea>
+        <textarea class="vr"></textarea>
+        <textarea class="hz"></textarea>
+    </div>
+</body>
+</html>
