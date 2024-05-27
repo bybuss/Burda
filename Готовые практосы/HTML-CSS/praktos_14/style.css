@@ -118,7 +118,6 @@
    }
    
    #d4{
-    -webkit-animation: kvadr 8s linear 30;
     animation: kvadr 8s linear 30;
    }
    #d4{
@@ -127,42 +126,42 @@
    border: 1px solid red;
    }
    
-   .border{
+.border{
       border: 1px solid black;
       width: 250px;
       height: 250px;
-   }
+}
 
-   .kvadr{
-       width: 100px;
-    height: 100px;
-    overflow: hidden;
-   }
+.kvadr{
+   width: 100px;
+   height: 100px;
+   overflow: hidden;
+}
 
-   #d5{
-    animation-name: kvadr, color;
-	animation-duration:6s, 3s;
-	animation-iteration-count: infinite, infinite;
-	animation-timing-function: linear, ease;
+#d5{
+   animation-name: kvadr, color;
+   animation-duration:6s, 3s;
+   animation-iteration-count: infinite, infinite;
+   animation-timing-function: linear, ease;
 
-   }
-   #d5{
+}
+#d5{
    width: 50px;
    height: 50px;
    border: 1px solid;
-   }
+}
   
 
-   #d6{
-    animation-duration:3s;
-	animation-name: move;
-	border: 1px solid red;
-	width: 50px;
-	height: 50px;
+#d6{
+   animation-duration:3s;
+   animation-name: move;
+   border: 1px solid red;
+   width: 50px;
+   height: 50px;
    animation-iteration-count: infinite;
-   }
+}
 
-   #d6_2{
+#d6_2{
 	animation-direction: alternate;
 	animation-duration:3s;
 	animation-name: move2;
@@ -184,15 +183,13 @@
 	background: red;
 	width: 0%;
 	height: 30px;
-	
-	-webkit-animation:test 5s infinite;
 	animation:test 5s infinite;
 }
 
 #wrapper7_2{
 	width: 50%;
 	height: 30px;
-   border: 1px solid red;
+   border: 1px solid red; 
 }
 
 #d7_2{
@@ -204,7 +201,7 @@
 }
 
 
-#d8{
+#d8 {
    width: 50px;
    height: 50px;
    border: 1px solid red;
@@ -213,18 +210,18 @@
    animation-play-state: paused;
 }
 
-#d8:hover{
+#d8:hover {
    animation-play-state: running;
 }
 
-#d8_2{
+#d8_2 {
    margin-top: 50px;
    width: 200px;
-	height: 35px;
-	border: 1px solid red;
+   height: 35px;
+   border: 1px solid red;
 }
 
-#d8_3{
+#d8_3 {
    width: 400px;
    height: 60px;
    margin-top: 10px;
@@ -233,12 +230,21 @@
    animation-play-state: paused;
 }
 
-#d8_2:hover + #d8_3{
+#d8_2:hover ~ #d8_3 {
    animation-play-state: running;
 }
 
+.dashed-border-box {
+   border: 2.5px dashed gray;
+   padding: 20px;
+   margin: 20px;
+   position: relative;
+   font-size: 18px;
+   text-align: justify;
+}
+
 #wrapper9{
-	margin: 0px auto;
+	margin: 0px;
 	width: 220px;
 	height: 220px;
 	border: 1px solid red;
