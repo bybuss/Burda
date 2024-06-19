@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <title>4</title>
+</head>
+
+<body>
+    <div class="menu">
+        <ul class="menu-items">
+            <h3>Содержание</h3>
+            <li class="menu-item"><a href="./index.html">На главную</a></li>
+            <li class="menu-item"><a href="./history.html">История Лилий</a></li>
+            <li class="menu-item"><a href="./gallery.html">Фотогалерея</a></li>
+            <li class="menu-item"><a href="./contact.html">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="s">
+        <div class="info">
+            <p class="contact">КОНТАКТНАЯ ИНФОРМАЦИЯ</p>
+            <p>Магазин "Лилия" расположен по адресу:</p> 
+            <p> г.Ростов-на-Дону ул.Пушкинская 120</p>
+            <p>Контактный телефон: 2-354-987, 8945123456</p>
+            <p>Директор магазина - А зачем вам мое ФИО?(Светличный Н.Д.)</p>
+        </div>
+        <div class="n">Форма обратной связи</div>
+        <form name="MyForm" action="send.php" method="post">
+            <table>
+                <tr>
+                    <td>Ваше имя:</td>
+                    <td><input class="input" name="name" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>Эл. почта:</td>
+                    <td><input class="input" name="email" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>Тема:</td>
+                    <td><input class="input" name="sub" type="text" /></td>
+                </tr>
+                <tr>
+                    <td valign="top">Текст сообщения:</td>
+                    <td><textarea name="body" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input value="Отправить" type="submit" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

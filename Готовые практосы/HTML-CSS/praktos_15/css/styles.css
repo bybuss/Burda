@@ -1,0 +1,110 @@
+h1 {
+    text-align: center;
+    color: rgb(29, 29, 121);
+    letter-spacing: 5px;
+}
+
+h3 {
+    color: rgb(29, 29, 121);
+    font-size: 24px;
+}
+
+.menu {
+    margin-left: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.all {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.text {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 480px;
+}
+
+.author {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    width: 480px;
+    margin-top: 10px;
+}
+
+/*меню*/
+ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    background: #036;
+    color: #fff;
+    padding: .2em .5em;
+    border-bottom: 1px solid #fff;
+    width: 7em;
+}
+
+ul a:hover {
+    background: #69C;
+    color: #000;
+}
+
+ul li {
+    margin: 3px;
+    display: inline;
+}
+
+/*======================================*/
+
+.content {
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.gif {
+    padding-bottom: 10px;
+    float: right;
+    padding-left: 10px;
+}
+.img {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/fon.jpg");
+    background-size: contain;
+    object-fit: cover;
+    background-position: center;
+}
+
+.gallerytext {
+    margin: 50px 150px ;
+}
+
+.highslide-gallery {
+    text-align: center;
+    margin: 0px auto;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продажа лесных шишечек</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#products">Наши шишечки</a></li>
+                <li><a href="#services">Наши чудесные услуги</a></li>
+                <li><a href="#contact">Связь с шишками</a></li>
+                <li><a href="#gallery">Шишки в Истории</a></li>
+                <li><a href="#lab">Шишечная лаборатория</a></li>
+                <li><a href="#reviews">Отзывы шишек</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Добро пожаловать в мир лесных шишечек!</h1>
+            <p><strong>Самые добротные и качественные шишечки только в нашем магазине!</strong> Успей купить, пока не выросли в деревья!</p>
+        </div>
+    </header>
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Мы – компания, специализирующаяся на продаже лесных шишечек разных видов. Наши шишечки собраны в экологически чистых лесах, где о них заботятся единороги и лесные эльфы. Шишечки идеально подходят для различных целей – от декоративных до абсолютно бессмысленных.</p>
+    </section>
+    <section id="products">
+        <h2>Наши шишечки</h2>
+        <div class="gallery">
+            <div class="product">
+                <img src="images/pine_cones.webp" alt="Сосновая шишка">
+                <div class="product-info">
+                    <h3>Сосновая шишка</h3>
+                    <p><strong>Цена за грамм:</strong> 20 руб.</p>
+                    <p>Вы чувствуете себя сосной? Эта шишка для вас!</p>
+                    <button class="buy-button">Купить</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/fir_tree.webp" alt="Еловая шишка">
+                <div class="product-info">
+                    <h3>Еловая шишка</h3>
+                    <p><strong>Цена за грамм:</strong> 24 руб.</p>
+                    <p>Идеальная шишка для тех, кто всегда мечтал быть елкой!</p>
+                    <button class="buy-button">Купить</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/cedar_tree.webp" alt="Кедровая шишка">
+                <div class="product-info">
+                    <h3>Кедровая шишка</h3>
+                    <p><strong>Цена за грамм:</strong> 30 руб.</p>
+                    <p>Для истинных ценителей кедра. Ощущение величия дерева в ваших руках!</p>
+                    <button class="buy-button">Купить</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/larch_cone.webp" alt="Лиственничная шишка">
+                <div class="product-info">
+                    <h3>Лиственничная шишка</h3>
+                    <p><strong>Цена за грамм:</strong> 28 руб.</p>
+                    <p>Для тех, кто предпочитает лиственничные рощи.</p>
+                    <button class="buy-button">Купить</button>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section id="services">
+        <h2>Наши чудесные услуги</h2>
+        <ul>
+            <li><strong>Консультации по выбору шишечек</strong>, ведь каждый день вам может понадобиться новая шишечка</li>
+            <li><strong>Доставка по всей России и за её пределы</strong>. Ваша шишечка прилетит к вам на дроне!</li>
+            <li><strong>Оптовые поставки</strong> для тех, кто не может остановиться на одной шишечке</li>
+            <li><strong>Индивидуальные заказы</strong>. Шишечка с вашим именем или портретом? Легко!</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Связь с нами через шишки</h2>
+        <p>Свяжитесь с нами по телефону: <strong>+7 (988) 997-46-60</strong> или по электронной почте: <strong>bybusbom@gmail.com</strong></p>
+        <form action="send.php" method="post">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+    <section id="gallery">
+        <h2>Шишки в Истории</h2>
+        <p>Исторические фотографии знаменитых личностей, которые держат шишки или шишки, участвующие в важных исторических событиях.</p>
+        <div class="history-gallery">
+            <div class="history-card">
+                <img src="images/history_pine.webp" alt="Историческая шишка 1">
+                <div class="history-info">
+                    <p><strong>"Эта шишка изменила мою жизнь!"</strong> - Джордж Вашингтон</p>
+                </div>
+            </div>
+            <div class="history-card">
+                <img src="images/history_fir.webp" alt="Историческая шишка 2">
+                <div class="history-info">
+                    <p><strong>"Никогда не видел ничего подобного!"</strong> - Альберт Эйнштейн</p>
+                </div>
+            </div>
+            <div class="history-card">
+                <img src="images/history_cedar.webp" alt="Историческая шишка 3">
+                <div class="history-info">
+                    <p><strong>"Лучшее, что я когда-либо держал в руках!"</strong> - Наполеон Бонапарт</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="lab">
+        <h2>Шишечная лаборатория</h2>
+        <p>Лаборатория по созданию шишек для насаждения. Мы занимаемся разработкой и выращиванием самых лучших и прочных шишек для ваших нужд.</p>
+        <img src="images/lab.webp" alt="Лаборатория шишек">
+    </section>
+    <section id="reviews">
+        <h2>Отзывы шишек</h2>
+        <div class="reviews">
+            <p><img src="images/spruce_cone_character.webp" alt="Сосновая шишка"><strong>Я была просто восторжена</strong>, когда меня выбрали для украшения праздничного стола!" – Сосновая шишка</p>
+            <p><img src="images/larch_cone_character.webp" alt="Еловая шишка"><strong>Теперь я живу в новом красивом доме</strong> и радую детей своей красотой!" – Еловая шишка</p>
+            <p><img src="images/hz_cone_character.webp" alt="Кедровая шишка"><strong>Меня используют в традиционных церемониях</strong>, и это моя гордость!" – Кедровая шишка</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Продажа лесных шишечек. Все права НЕ защищены. Пишите нам поменьше, мы колимся, только шишечками.</p>
+    </footer>
+</body>
+</html>
