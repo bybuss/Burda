@@ -37,7 +37,7 @@
                     <h3>Сосновая шишка</h3>
                     <p><strong>Цена за грамм:</strong> 20 руб.</p>
                     <p>Вы чувствуете себя сосной? Эта шишка для вас!</p>
-                    <button class="buy-button">Купить</button>
+                    <button class="buy-button" data-product="Сосновая шишка">Купить</button>
                 </div>
             </div>
             <div class="product">
@@ -46,7 +46,7 @@
                     <h3>Еловая шишка</h3>
                     <p><strong>Цена за грамм:</strong> 24 руб.</p>
                     <p>Идеальная шишка для тех, кто всегда мечтал быть елкой!</p>
-                    <button class="buy-button">Купить</button>
+                    <button class="buy-button" data-product="Еловая шишка">Купить</button>
                 </div>
             </div>
             <div class="product">
@@ -55,7 +55,7 @@
                     <h3>Кедровая шишка</h3>
                     <p><strong>Цена за грамм:</strong> 30 руб.</p>
                     <p>Для истинных ценителей кедра. Ощущение величия дерева в ваших руках!</p>
-                    <button class="buy-button">Купить</button>
+                    <button class="buy-button" data-product="Кедровая шишка">Купить</button>
                 </div>
             </div>
             <div class="product">
@@ -64,7 +64,7 @@
                     <h3>Лиственничная шишка</h3>
                     <p><strong>Цена за грамм:</strong> 28 руб.</p>
                     <p>Для тех, кто предпочитает лиственничные рощи.</p>
-                    <button class="buy-button">Купить</button>
+                    <button class="buy-button" data-product="Лиственничная шишка">Купить</button>
                 </div>
             </div>
         </div>
@@ -131,5 +131,32 @@
     <footer>
         <p>&copy; 2024 Продажа лесных шишечек. Все права НЕ защищены. Пишите нам поменьше, мы колимся, только шишечками.</p>
     </footer>
+
+    <!-- Модальное окно для формы покупки -->
+    <div id="purchase-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Форма покупки</h2>
+            <form id="purchase-form" action="purchase.php" method="post">
+                <label for="product-name">Выберите шишечку:</label>
+                <select id="product-name" name="product-name" required>
+                    <option value="Сосновая шишка">Сосновая шишка</option>
+                    <option value="Еловая шишка">Еловая шишка</option>
+                    <option value="Кедровая шишка">Кедровая шишка</option>
+                    <option value="Лиственничная шишка">Лиственничная шишка</option>
+                </select>
+                <label for="buyer-name">Ваше имя:</label>
+                <input type="text" id="buyer-name" name="buyer-name" required>
+                <label for="buyer-email">Ваш Email:</label>
+                <input type="email" id="buyer-email" name="buyer-email" required>
+                <label for="buyer-address">Ваш адрес:</label>
+                <input type="text" id="buyer-address" name="buyer-address" required>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="purchase.php"></script>
+    <script src="send.php"></script> -->
 </body>
 </html>
